@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <script src="/assets/js/pack.js"></script>
+    <script src="/assets/js/npl.js"></script>
+    <link href="/assets/css/npl.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Lato&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/assets/img/icon.ico" >
+    <title> New Property for Sale in Kuala Lumpur | NewPropertyList.my</title>
+    <meta name="keywords" content="NewPropertyList.my, Kuala Lumpur"/>
+    <meta name="description" content="Find your New Property in Kuala Lumpur on NewPropertyList.my. You can narrow down this latest list , including new Condominiums, Terrace/Link Houses, Semi-detached/Bungalows and Apartments, by its area, property type, number of bedrooms, size, prices, completion years."/>
+    <meta name="robots" content="" />
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '895744797210221');
+fbq('track', "PageView");
+
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=895744797210221&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+  </head>
+  <body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64858864-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+    <div class="LyWrap">
+      <div class="LyHeadWrap" id="FnLyHeadWrap">
+        <div class="LyHead" id="FnLyHead">
+          <div class="lyHeadInner">
+            <div class="MdGHD01Logo">
+              <a href="/"></a>
+            </div>
+            <div class="MdGHD02Search" id="FnGHD02Search">
+              <span>Search</span>
+              <div class="MdGHD05SearchBox" id="FnGHD05SearchBox">
+                <div class="MdGFT01FootBox01 ExNoBorder">
+                  <div class="MdGFT01ListBox01">
+                    <div class="mdGFT01Ttl01">
+                      Search by Area
+                    </div>
+                    <ul>
+                      <li> <a class="ExHead" href="/kuala-lumpur/">Kuala Lumpur</a> </li>
+                      <li> <a class="ExHead" href="/selangor/">Selangor</a> </li>
+                      <li> <a class="ExHead" href="/johor/">Johor</a> </li>
+                      <li> <a class="ExHead" href="/penang/">Penang</a> </li>
+                      <li> <a class="ExHead" href="/kedah/">Kedah</a> </li>
+                      <li> <a class="ExHead" href="/negeri-sembilan/">Negeri Sembilan</a> </li>
+                      <li> <a class="ExHead" href="/perak/">Perak</a> </li>
+                      <li> <a class="ExHead" href="/pahang/">Pahang</a> </li>
+                      <li> <a class="ExHead" href="/perlis/">Perlis</a> </li>
+                      <li> <a class="ExHead" href="/sabah/">Sabah</a> </li>
+                      <li> <a class="ExHead" href="/sarawak/">Sarawak</a> </li>
+                    </ul>
+                  </div>
+                  <div class="MdGFT01ListBox01">
+                    <div class="mdGFT01Ttl01">
+                      Search by Property types
+                    </div>
+                    <ul>
+                      <li> <a class="ExHead" href="/all-state/new-condominium-for-sale">Condominium</a> </li>
+                      <li> <a class="ExHead" href="/all-state/new-terrace-link-house-for-sale">Terrace/Link House</a> </li>
+                      <li> <a class="ExHead" href="/all-state/new-semi-detached-bungalow-for-sale">Semi-detached/Bungalow</a> </li>
+                      <li> <a class="ExHead" href="/all-state/new-apartment-for-sale">Apartment</a> </li>
+                    </ul>
+                  </div>
+                  <div class="MdGFT01ListBox01">
+                    <div class="mdGFT01Ttl01">
+                      Search by Prices
+                    </div>
+                    <ul>
+                      <li> <a class="ExHead" href="under-rm300k">Less than RM300k</a> </li>
+                      <li> <a class="ExHead" href="under-rm500k">RM300k - RM500k</a> </li>
+                      <li> <a class="ExHead" href="under-rm1000k">RM500k - RM1,000,000</a> </li>
+                      <li> <a class="ExHead" href="under-rm1500k">RM1,000,000 - RM1,500,000</a> </li>
+                      <li> <a class="ExHead" href="under-rm2000k">RM1,500,000 - RM2,000,000</a> </li>
+                      <li> <a class="ExHead" href="over-rm2000k">More than RM2,000,000</a> </li>
+                    </ul>
+                  </div>
+                  <div class="MdGFT01FloatBox01">
+                    <div class="MdGFT01FloatBoxCell">
+                      <div class="mdGFT01Ttl01">
+                        Search by Features
+                      </div>
+                      <ul>
+                        <li> <a class="ExHead" href="/features/">See the List</a> </li>
+                      </ul>
+                    </div>
+                    <div class="MdGFT01FloatBoxCell">
+                      <div class="mdGFT01Ttl01">
+                        Search by Developers
+                      </div>
+                      <ul>
+                        <li>
+                          <a class="ExHead" href="/real-estate-developers/">See the List</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="MdGHD03Menu">
+              <ul>
+                <li>
+                  <a href="/about/">About</a>
+                </li>
+                <li>
+                  <a href="/signin/">Login</a>
+                </li>
+              </ul>
+            </div>
+            <div class="MdGHD03Enquiry">
+              <a href="/enquiry/collection">Enquiry collection</a>
+            </div>
+            <div class="MdGHD06SendIcon">5</div>
+          </div>
+        </div>
+      </div>
+      <div class="MdCMN06Pankuzu">
+        <ul class="mdCMN06List01"> <li class="mdCMN06Cell01"><a href="/all-state/"><span>New Properties</span></a></li><li class="mdCMN06Cell01"> <span>Kuala Lumpur</span> </li> </ul>
+      </div>
+      <div class="LyContents">
+        <div class="LySide">
+          <div class="MdSAC04SideTitle"> <p> Filter your results </p> </div>
+
+
+
+
+
+          <div class="MdSAC05SideList">
+            <div class="mdSAC05Ttl01"><h2>Property types</h2></div>
+            <ul class="mdSAC05List01">
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/new-condominium-for-sale" id="checkbox-id1" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id1">Condominium</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/new-terrace-link-house-for-sale" id="checkbox-id2" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id2">Terrace/Link House</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/new-semi-detached-bungalow-for-sale" id="checkbox-id3" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id3">Semi-detached/Bungalow</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/new-apartment-for-sale" id="checkbox-id4" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id4">Apartment</label> </li>
+            </ul>
+          </div>
+
+
+
+
+
+
+          <div class="MdSAC05SideList">
+            <div class="mdSAC05Ttl01"><h2>Price</h2></div>
+            <ul class="mdSAC05List01">
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/under-rm500k" id="checkbox-id5" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id5">RM300k - RM500k</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/under-rm1000k" id="checkbox-id6" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id6">RM500k - RM1,000,000</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/under-rm1500k" id="checkbox-id7" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id7">RM1,000,000 - RM1,500,000</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/under-rm2000k" id="checkbox-id8" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id8">RM1,500,000 - RM2,000,000</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/over-rm2000k" id="checkbox-id9" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id9">More than RM2,000,000</label> </li>
+            </ul>
+          </div>
+
+
+
+
+
+
+
+
+
+          <div class="MdSAC05SideList">
+            <div class="mdSAC05Ttl01"><h2>State</h2></div>
+            <ul class="mdSAC05List01">
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/all-state/" id="checkbox-id10" type="checkbox" onChange="location.href=value;" checked /><label for="checkbox-id10">Kuala Lumpur</label> </li>
+            </ul>
+          </div>
+
+
+          <div class="MdSAC05SideList">
+            <div class="mdSAC05Ttl01"><h2>Area</h2></div>
+            <ul class="mdSAC05List01">
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/kl-city-centre" id="checkbox-id11" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id11">KL City Centre</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/mont-kiara" id="checkbox-id12" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id12">Mont Kiara</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/jalan-ampang" id="checkbox-id13" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id13">Jalan Ampang</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/segambut" id="checkbox-id14" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id14">Segambut</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/bukit-jalil" id="checkbox-id15" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id15">Bukit Jalil</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/dutamas" id="checkbox-id16" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id16">Dutamas</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/kuchai" id="checkbox-id17" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id17">Kuchai</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/ttdi" id="checkbox-id18" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id18">Taman Tun Dr. Ismail</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/setapak" id="checkbox-id19" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id19">Setapak</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/taman-melawati" id="checkbox-id20" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id20">Taman Melawati</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/bukit-tunku" id="checkbox-id21" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id21">Bukit Tunku</label> </li>
+            </ul>
+          </div>
+
+
+
+
+
+          <div class="MdSAC05SideList">
+            <div class="mdSAC05Ttl01"><h2>Bedrooms</h2></div>
+            <ul class="mdSAC05List01">
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/studio" id="checkbox-id22" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id22">Studio</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/1bed" id="checkbox-id23" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id23">1 Bedroom +</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/2bed" id="checkbox-id24" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id24">2 Bedrooms +</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/3bed" id="checkbox-id25" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id25">3 Bedrooms +</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/4bed" id="checkbox-id26" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id26">4+ Bedrooms</label> </li>
+            </ul>
+          </div>
+
+
+
+
+
+
+
+          <div class="MdSAC05SideList">
+            <div class="mdSAC05Ttl01"><h2>Size</h2></div>
+            <ul class="mdSAC05List01">
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/600sqft" id="checkbox-id27" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id27">Less than 600 sqft</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/1000sqft" id="checkbox-id28" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id28">601- 1000 sqft</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/1600sqft" id="checkbox-id29" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id29">1001- 1600 sqft</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/2000sqft" id="checkbox-id30" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id30">1601- 2000 sqft</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/2001sqft" id="checkbox-id31" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id31">More than 2001 sqft</label> </li>
+            </ul>
+          </div>
+
+
+
+
+
+
+
+
+
+
+          <div class="MdSAC05SideList">
+            <div class="mdSAC05Ttl01"><h2>Completion Year</h2></div>
+            <ul class="mdSAC05List01">
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/completed" id="checkbox-id32" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id32">Already completed</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/complete-2016" id="checkbox-id33" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id33">2016</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/complete-2017" id="checkbox-id34" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id34">2017</label> </li>
+              <li class="mdSAC05Cell01"> <input class="cuctom-check" value="/kuala-lumpur/complete-2018" id="checkbox-id35" type="checkbox" onChange="location.href=value;"  /><label for="checkbox-id35">After 2018</label> </li>
+            </ul>
+          </div>
+
+
+
+        </div><!--LySide-->
+
+
+
+
+
+
+
+        <div class="LyMain">
+          <div class="MdSAC01MainContents">
+            <div class="MdSAC01Filter"></div>
+            <div class="MdSAC01Box01">
+              <img alt="" src="/assets/img/non_type.jpg" />
+              <h1 class="mdSAC01Txt01">We found <span>16</span><new> new </new><span>properties </span><for>for sale in </for><span>Kuala Lumpur</span></h1>
+              <div class="mdSAC01Btn01">
+                <a href="/enquiry/once_for_all">Enquiry once for all</a>
+              </div>
+              <div class="mdSAC01Txt02">
+                <span>You can enquiry once for all listings below</span>
+              </div>
+              <div class="MdSAC01LinkBox01">
+                <a href="/about/">What’s NewPropertyList.my?</a>
+              </div>
+            </div>
+            <div class="MdSAC01Box02">
+              <div class="MdSAC01TtlBox">
+                <span>Applied filter :</span>
+              </div>
+              <div class="MdSAC01TagBox">
+                <ul class="mdSAC01List01">
+                  <li class="mdSAC01Cell01"> <a href="/all-state/"><span>Kuala Lumpur</span></a> </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="MdSAC02List01">
+            <!--ul class="MdSAC02CellWrap01"-->
+            <ul>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/desiran-bayu-in-setapak"><img alt="" src="/admin/images/listings/20151212030129_th_30041.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/desiran-bayu-in-setapak"><span>Desiran Bayu</span></a>
+                </div>
+                <div class="mdSAC02Txt01">From RM 1,580,000</div>
+                <div class="mdSAC02Txt02">Jalan Rajang 1, Taman Sri Rampai 53300 Kuala Lumpur</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/residensi-gembira-33-in-kuchai-lama"><img alt="" src="/admin/images/listings/20151212032016_th_30069.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/residensi-gembira-33-in-kuchai-lama"><span>Residensi Gembira 33</span></a>
+                </div>
+                <div class="mdSAC02Txt01">RM 1,088,990  - RM 2,560,000</div>
+                <div class="mdSAC02Txt02">Kuchai Lama, Kuala Lumpur</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/tijani-arata-in-bukit-tunku"><img alt="" src="/admin/images/listings/20151212030303_th_30043.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/tijani-arata-in-bukit-tunku"><span>Tijani Arata</span></a>
+                </div>
+                <div class="mdSAC02Txt01">From RM 2,023,200</div>
+                <div class="mdSAC02Txt02">Jalan Syers, Taman Tunku, 50480 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/royal-regent-in-dutamas"><img alt="" src="/admin/images/listings/20151212030537_th_30046.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/royal-regent-in-dutamas"><span>Royal Regent</span></a>
+                </div>
+                <div class="mdSAC02Txt01">From RM 550 psf</div>
+                <div class="mdSAC02Txt02">Sri Putramas 3, No-1, Jalan Putramas 2, 51200 Kuala Lumpur</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/dorsett-residences-in-bukit-bintang"><img alt="" src="/admin/images/listings/20151212030857_th_30051.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/dorsett-residences-in-bukit-bintang"><span>Dorsett Residences</span></a>
+                </div>
+                <div class="mdSAC02Txt01">From RM 1,300,000</div>
+                <div class="mdSAC02Txt02">172, Jalan Imbi, 55100 Bukit Bintang</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/suria-stonor-in-klcc"><img alt="" src="/admin/images/listings/20151212025839_th_30037.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/suria-stonor-in-klcc"><span>Suria Stonor</span></a>
+                </div>
+                <div class="mdSAC02Txt01">From 3,312,000- 5,576,000</div>
+                <div class="mdSAC02Txt02">Persiaran Stonor, Kuala Lumpur</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/twy-in-mont-kiara"><img alt="" src="/admin/images/listings/20151230164240_20150929003742_SymphonyLife-Twy-19.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/twy-in-mont-kiara"><span>TWY</span></a>
+                </div>
+                <div class="mdSAC02Txt01">From RM 802,000</div>
+                <div class="mdSAC02Txt02">Jalan Solaris, Solaris Mont Kiara, 50480 Kuala Lumpur</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/dedaun-in-jalan-ampang"><img alt="" src="/admin/images/listings/20151212103505_th_30088.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/dedaun-in-jalan-ampang"><span>Dedaun</span></a>
+                </div>
+                <div class="mdSAC02Txt01">RM4,700,000 - RM7,300,000</div>
+                <div class="mdSAC02Txt02">193, Jalan Ampang, 50450 Kuala Lumpur</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/regalia-in-putra"><img alt="" src="/admin/images/listings/20151212030616_th_30047.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/regalia-in-putra"><span>Regalia @ Sultan Ismail</span></a>
+                </div>
+                <div class="mdSAC02Txt01"></div>
+                <div class="mdSAC02Txt02">No.2, Jalan Anjung Putra, Off Jalan Sultan Ismail</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/the-ruma-residences-in-klcc"><img alt="" src="/admin/images/listings/20151212021041_th_30001.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/the-ruma-residences-in-klcc"><span>The RuMa Residences</span></a>
+                </div>
+                <div class="mdSAC02Txt01">Ranging from RM 1,980,000 onwards</div>
+                <div class="mdSAC02Txt02">Jalan Kia Peng, Kuala Lumpur city centre</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/ttdi-ascencia-in-ttdi"><img alt="" src="/admin/images/listings/20151230163542_AscenciaPool.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/ttdi-ascencia-in-ttdi"><span>TTDI Ascencia</span></a>
+                </div>
+                <div class="mdSAC02Txt01">From RM722,640 - RM2,628,360</div>
+                <div class="mdSAC02Txt02">Jalan Tun Mohd Fuad, Taman Tun Dr Ismail, 60000 Kuala Lumpur</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/denai-sutera-in-bukit-jalil"><img alt="" src="/admin/images/listings/20151228113600_Living&Dining.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/denai-sutera-in-bukit-jalil"><span>Denai Sutera</span></a>
+                </div>
+                <div class="mdSAC02Txt01">From RM605,800 to RM902,800</div>
+                <div class="mdSAC02Txt02">Alam Sutera, Bukit Jalil, Kuala Lumpur</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/28-dutamas-in-dutamas"><img alt="" src="/admin/images/listings/20151212105716_th_30123.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/28-dutamas-in-dutamas"><span>28 Dutamas</span></a>
+                </div>
+                <div class="mdSAC02Txt01">From RM688,000</div>
+                <div class="mdSAC02Txt02">28 Dutamas, Jalan Dutamas Raya 1/38B, Wilayah Persekutuan Kuala Lumpur</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/star-residences-two-in-klcc"><img alt="" src="/admin/images/listings/20151228164920_SR_TypeF2Living_Lowres.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/star-residences-two-in-klcc"><span>Star Residences Two</span></a>
+                </div>
+                <div class="mdSAC02Txt01">Partially Fitted (From RM1,300,000)</div>
+                <div class="mdSAC02Txt02">Jalan Yap Kwan Seng, KLCC, Kuala Lumpur</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/tropika-melawati-in-taman-melawati"><img alt="" src="/admin/images/listings/20151229104320_5.PropertyPic-ID1.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/tropika-melawati-in-taman-melawati"><span>Tropika Melawati</span></a>
+                </div>
+                <div class="mdSAC02Txt01">From RM2.48 million</div>
+                <div class="mdSAC02Txt02">Jalan Tropika Melawati, Taman Tropika Melawati, 53100 Hulu Kelang, Selangor</div>
+              </li>
+              <li class="MdSAC02Cell01">
+                <div class="mdSAC02Img01">
+                  <a href="/kuala-lumpur/flexus-in-segambut"><img alt="" src="/admin/images/listings/20160105140609_Panorama01.jpg" /></a>
+                </div>
+                <div class="mdSAC02Ttl01">
+                  <a href="/kuala-lumpur/flexus-in-segambut"><span>Flexus @ Jalan Kuching</span></a>
+                </div>
+                <div class="mdSAC02Txt01">RM467,900 - RM1,047,900</div>
+                <div class="mdSAC02Txt02">Jalan Kuching, 51200 Kuala Lumpur</div>
+              </li>
+            </ul>
+          </div>
+          <div class="MdSAC03Pager">
+            <div class="MdSAC03PagerBox">
+              <ul class="MdSAC03List01">
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+      <div class="MdSAC07ExplainBox">
+        <div class="mdSAC07Ttl01">Area guides in Kuala Lumpur, Malaysia</div>
+        <div class="mdSAC07Txt01">Kuala Lumpur is the capital of Malaysia which is also one of the most vibrant and developed cities of South East Asia region after Singapore. With an estimated population of 1.67million (Human Development Index 2014), the 3 main races are Malay, Chinese and Indian as well as a significant number of expatriates and foreign workers. Kuala Lumpur is the fastest growing metropolitan in the country with young and aggressive work force aims to achieve 2020 vision to become a high income and fully industrialized nation. Currently, high-rise skyscrapers, world-class hotels, ritzy shopping malls that offer local & international cuisine can be sighted as you roam on the streets. Not to forget the upcoming financial district, Tun Razak Exchange which is located just steps away from Bukit Bintang.
+<br />As the capital of Malaysia, Kuala Lumpur is famous for its multi-racial Malaysian cuisine which basically consists of cooking practice from three major ethnic groups, Malay, Chinese and Indian. The food prices are reasonably priced and food and beverages outlets can be sighted easily, for example Mamak where most of them operate for 24 hours. Islam is the official religion of the federation. Having said that, freedom of religion is practised under Malaysia constitution. All ethnic groups are allowed to practice their own religion and as a result, the rich religion practice and beliefs embodied in daily life, cultural, and buildings. Mosques, Chinese and Hindu temples as well as churches can be spotted with their distinctive designs.
+<br />Kuala Lumpur is made up of an area of 244km2 (94 sq mi) which consists of city centre and its surrounding urban areas which are Klang, Port Klang, Shah Alam, Subang Jaya, Petaling Jaya, Ampang, Selayang , Kepong, Puchong and Sepang. This huge growing metropolitan region in the country called Greater Kuala Lumpur or commonly known as Klang Valley.  The public transport in Klang Valley consist variety of transportation modes such as public bus, railway and taxis which allows travelers to access to their destination conveniently. Public Bus named RapidKL is the biggest bus operators operating in Klang Valley linking the city centres to other sub area. It offers free bus service in KL city center at ‘Golden Triangle ‘area where it is the home to most of KL world-class hotels, shopping malls, office complex and the well know KL Tower and Petronas Twin Tower , used to be the tallest building in the world from 1998-2004.
+<br />Klang Valley Integrated Transit system is a public railway system covers the entire Klang Valley although the rail line system was operated differently at separate time initially. Since 2012, it had been integrated physically under a common ticket system called TouchNGo which enables travelers to ride on different public railway system and transfer between line with only one payment card. Today, TouchnGo is recognized as mode of payment on all public transport which ease the hassle of buying different ticket under different network. KL Sentral is the city’s main intercity railway hub where connects every rail lines. Furthermore, KLIA Trains connect Kuala Lumpur International Airport (KLIA) and Kuala Lumpur International Airport 2 (KLIA 2) to KL Sentral is the most convenient, fastest and cheapest way to transfer between airport and city in just 28 minutes without any traffic congestion. In addition, taxi services is provided and available in every corner of the city. 
+<br />Kuala Lumpur is a busy city with high end skyscrapers, luxury residential buildings, colonial architecture and a shopping paradise for avid shoppers with some of the world’s largest shopping Mall while street market is offering a completely different kind of shopping experience where meet everyone’s need.</div>
+      </div>
+
+      <div class="MdSAC06SendEnquiry">
+        <div class="MdSAC06InnerBox01">
+          <div class="mdSAC06Txt01">
+            <span>5</span>
+          </div>
+          <div class="mdSAC06Btn01">
+            <a href="/enquiry/input"><span>Send Enquiry</span></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="MdCMN05FaceBookBox">
+        <div class="MdCMN05InnerBox">
+          <a href="https://www.facebook.com/newpropertylist.my/" target="_blank">
+            <div class="mdCMN05Logo">
+              <img alt="" src="/assets/img/cmn_fb_logo.png" />
+            </div>
+            <div class="mdCMN05Txt01">
+              Follow us on Facebook
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="LyFoot">
+        <div class="MdGFT01FootBox01">
+
+          <div class="MdGFT01InnerBox01">
+            <div class="MdGFT01ListBox01">
+              <div class="mdGFT01Ttl01"> NewPropertyList.my </div>
+              <ul>
+                <li>Are you looking for new property in Malaysia? Smart new property finder for new home buyers is here.
+Buying a house might be the biggest purchase in your life. You should be careful not to regret later. If you think to buy a new property development, it’s better for you to buy from real estate developer, not from agent. NewPropertyList.my provide reliable and adequate information for you, new home buyers. Our listings is being provided directly only from real estate developers. So you can get all of the information which trustable and good for you is only on NewPropertyList.my</li>
+              </ul>
+            </div>
+           </div>
+
+
+
+
+          <div class="MdGFT01InnerBox01">
+            <div class="MdGFT01ListBox01">
+              <div class="mdGFT01Ttl01">
+                Search by Area
+              </div>
+              <dl>
+                <dt><a href="/kuala-lumpur">Kuala Lumpur</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/kuala-lumpur/kl-city-centre">KL City Centre</a></li>
+                    <li><a href="/kuala-lumpur/mont-kiara">Mont Kiara</a></li>
+                    <li><a href="/kuala-lumpur/jalan-ampang">Jalan Ampang</a></li>
+                    <li><a href="/kuala-lumpur/segambut">Segambut</a></li>
+                    <li><a href="/kuala-lumpur/bukit-jalil">Bukit Jalil</a></li>
+                    <li><a href="/kuala-lumpur/dutamas">Dutamas</a></li>
+                    <li><a href="/kuala-lumpur/kuchai">Kuchai</a></li>
+                    <li><a href="/kuala-lumpur/ttdi">Taman Tun Dr. Ismail</a></li>
+                    <li><a href="/kuala-lumpur/setapak">Setapak</a></li>
+                    <li><a href="/kuala-lumpur/taman-melawati">Taman Melawati</a></li>
+                    <li><a href="/kuala-lumpur/bukit-tunku">Bukit Tunku</a></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt><a href="/selangor">Selangor</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/selangor/batu-caves">Batu Caves</a></li>
+                    <li><a href="/selangor/petaling-jaya">Petaling Jaya</a></li>
+                    <li><a href="/selangor/puchong">Puchong</a></li>
+                    <li><a href="/selangor/subang-jaya">Subang Jaya</a></li>
+                    <li><a href="/selangor/ampang">Ampang</a></li>
+                    <li><a href="/selangor/shah-alam">Shah Alam</a></li>
+                    <li><a href="/selangor/klang">Klang</a></li>
+                    <li><a href="/selangor/kajang">Kajang</a></li>
+                    <li><a href="/selangor/cyberjaya">Cyberjaya</a></li>
+                    <li><a href="/selangor/cheras">Cheras</a></li>
+                    <li><a href="/selangor/seri-kembangan">Seri Kembangan</a></li>
+                    <li><a href="/selangor/rawang">Rawang</a></li>
+                    <li><a href="/selangor/bandar-sungai-long">Bandar Sungai Long</a></li>
+                    <li><a href="/selangor/sepang">Sepang</a></li>
+                    <li><a href="/selangor/dengkil">Dengkil</a></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt><a href="/johor">Johor</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/johor/johor-bahru">Johor Bahru</a></li>
+                    <li><a href="/johor/kota-tinggi">Kota Tinggi</a></li>
+                    <li><a href="/johor/masai">Masai</a></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt><a href="/penang">Penang</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/penang/georgetown">Georgetown</a></li>
+                    <li><a href="/penang/sungai-ara">Sungai Ara</a></li>
+                    <li><a href="/penang/tanjung-tokong">Tanjung Tokong</a></li>
+                    <li><a href="/penang/air-itam">Air Itam</a></li>
+                    <li><a href="/penang/relau">Relau</a></li>
+                    <li><a href="/penang/teluk-kumbar">Teluk Kumbar																					</a></li>
+                    <li><a href="/penang/bukit-gambir">Bukit Gambir</a></li>
+                    <li><a href="/penang/batu-ferringhi">Batu Ferringhi</a></li>
+                    <li><a href="/penang/bukit-mertajam">Bukit Mertajam</a></li>
+                    <li><a href="/penang/batu-maung">Batu Maung</a></li>
+                    <li><a href="/penang/paya-terubong">Paya Terubong</a></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt><a href="/perak">Perak</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/perak/ipoh">Ipoh</a></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt><a href="/pahang">Pahang</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/pahang/kuantan">Kuantan</a></li>
+                    <li><a href="/pahang/genting-highlands">Genting Highlands</a></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt><a href="/kedah">Kedah</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/kedah/sungai-petani">Sungai Petani</a></li>
+                    <li><a href="/kedah/gurun">Gurun</a></li>
+                    <li><a href="/kedah/alor-setar">Alor Setar</a></li>
+                    <li><a href="/kedah/kulim">Kulim</a></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt><a href="/negeri-sembilan">Negeri Sembilan</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/negeri-sembilan/lenggeng">Lenggeng</a></li>
+                    <li><a href="/negeri-sembilan/nilai">Nilai</a></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt><a href="/perlis">Perlis</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/perlis/kangar">Kangar</a></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt><a href="/sabah">Sabah</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/sabah/kunak">Kunak</a></li>
+                  </ul>
+                </dd>
+              </dl>
+              <dl>
+                <dt><a href="/sarawak">Sarawak</a></dt>
+                <dd>
+                  <ul>
+                    <li><a href="/sarawak/bintulu">Bintulu</a></li>
+                    <li><a href="/sarawak/kuching">Kuching</a></li>
+                    <li><a href="/sarawak/miri">Miri</a></li>
+                  </ul>
+                </dd>
+              </dl>
+
+             </div>
+
+            <div class="MdGFT01ListBox01">
+              <div class="mdGFT01Ttl01"> Search by Property types </div>
+              <ul>
+                <li><a href="/all-state/new-condominium-for-sale">Condominium</a></li>
+                <li><a href="/all-state/new-terrace-link-house-for-sale">Terrace/Link House</a></li>
+                <li><a href="/all-state/new-semi-detached-bungalow-for-sale">Semi-detached/Bungalow</a></li>
+                <li><a href="/all-state/new-apartment-for-sale">Apartment</a></li>
+              </ul>
+            </div>
+
+            <div class="MdGFT01ListBox01">
+              <div class="mdGFT01Ttl01"></div>
+              <ul>
+                <li><a href="/">NewPropertyList.my top</a></li>
+                <li><a href="/sitemap/">Site map</a></li>
+                <li><a href="/terms/">Terms of conditions</a></li>
+                <li><a href="/privacy/">Privacy Policy</a></li>
+                <li><a href="/disclaimers/">Disclaimers</a></li>
+                <li><a href="/contact/">Contact Us</a></li>
+                <li><a href="/archive/">Archive</a></li>
+              </ul>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="MdGFT03FootBox01">
+          <div class="MdGFT03InnerBox01">
+            <div class="mdGFT03Company">
+              Samurai internet
+            </div>
+            <div class="mdGFT03Copyright">
+              &copy;    2015-2016 / <a href="http://samurai-internet.com/" target="_blank">Samurai Internet Sdn Bhd</a> / All Rights Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

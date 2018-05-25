@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>NewPropertyList.my</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta property="og:title" content="NewPropertyList.my">
+<meta property="og:type" content="website">
+<meta property="og:description" content="">
+<meta property="og:url" content="http://NewPropertyList.my">
+<meta property="og:image" content="">
+<meta property="og:site_name" content="NewPropertyList.my">
+
+<link rel="canonical" href="http://NewPropertyList.my/" />
+<link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen, print" />
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen, print" />
+<link rel="stylesheet" type="text/css" href="../lib/jquery.ad-gallery.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="../lib/jquery.ad-gallery.js"></script>
+<script type="text/javascript">
+  $(function() {
+var galleries = $('.ad-gallery').adGallery();
+  });
+  </script>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript"> 
+function initialize() {
+    var myLatlng = new google.maps.LatLng(2.9221919,101.6607223);
+    var myOptions = {
+        zoom: 12,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+
+    var map = new google.maps.Map(document.getElementById("map_area"), myOptions);
+
+
+var LatLng1 = new google.maps.LatLng(2.9221919,101.6607223);
+
+  var image1 = new google.maps.MarkerImage('../img/history/icon1.png',
+      new google.maps.Size(29, 51),
+      new google.maps.Point(0,0),
+      new google.maps.Point(15, 51));
+var infowindow1 = new google.maps.InfoWindow();
+
+var marker1 = new google.maps.Marker({
+        position: LatLng1,
+        map: map,
+        title: "place1",
+        icon: image1,
+    });
+google.maps.event.addListener(marker1, "click", function (e) {
+infowindow1.setPosition(e.LatLng1);
+infowindow1.setContent("<div id='infoWindow'><span class='map_photo'><img src='../img/enquiry/photo2.jpg'></span><span class='orange'>From RM 2,083,000.00 - RM 5,175,000.00</span><br>" +
+"<a href='#'>Property name property name property name property name property name</a></div>"
+);
+infowindow1.open(map, marker1);
+});
+
+
+var LatLng2 = new google.maps.LatLng(3.0308342,101.6165022);
+
+  var image2 = new google.maps.MarkerImage('../img/history/icon1.png',
+      new google.maps.Size(29, 51),
+      new google.maps.Point(0,0),
+      new google.maps.Point(15, 51));
+var infowindow2 = new google.maps.InfoWindow();
+
+var marker2 = new google.maps.Marker({
+        position: LatLng2,
+        map: map,
+        title: "place1",
+        icon: image2,
+    });
+google.maps.event.addListener(marker2, "click", function (e) {
+infowindow1.setPosition(e.LatLng2);
+infowindow1.setContent("<div id='infoWindow'><span class='map_photo'><img src='../img/property/photo4.png'></span><span class='orange'>From RM 2,083,000.00 - RM 5,175,000.00</span><br>" +
+"<a href='#'>Property name property name property name property name property name</a></div>"
+);
+infowindow1.open(map, marker2);
+});
+
+
+var LatLng3 = new google.maps.LatLng(3.0359400,101.7195000);
+
+  var image3 = new google.maps.MarkerImage('../img/history/icon1.png',
+      new google.maps.Size(29, 51),
+      new google.maps.Point(0,0),
+      new google.maps.Point(15, 51));
+var infowindow3 = new google.maps.InfoWindow();
+
+var marker3 = new google.maps.Marker({
+        position: LatLng3,
+        map: map,
+        title: "place3",
+        icon: image3,
+    });
+google.maps.event.addListener(marker3, "click", function (e) {
+infowindow1.setPosition(e.LatLng3);
+infowindow1.setContent("<div id='infoWindow'><span class='map_photo'><img src='../img/enquiry/photo2.jpg'></span><span class='orange'>From RM 2,083,000.00 - RM 5,175,000.00</span><br>" +
+"<a href='#'>Property name property name property name property name property name</a></div>"
+);
+infowindow1.open(map, marker3);
+});
+
+
+var LatLng4 = new google.maps.LatLng(3.0009400,101.7195000);
+
+  var image4 = new google.maps.MarkerImage('../img/history/icon1.png',
+      new google.maps.Size(29, 51),
+      new google.maps.Point(0,0),
+      new google.maps.Point(15, 51));
+var infowindow4 = new google.maps.InfoWindow();
+
+var marker4 = new google.maps.Marker({
+        position: LatLng4,
+        map: map,
+        title: "place4",
+        icon: image4,
+    });
+google.maps.event.addListener(marker4, "click", function (e) {
+infowindow1.setPosition(e.LatLng4);
+infowindow1.setContent("<div id='infoWindow'><span class='map_photo'><img src='../img/enquiry/photo2.jpg'></span><span class='orange'>From RM 2,083,000.00 - RM 5,175,000.00</span><br>" +
+"<a href='#'>Property name property name property name property name property name</a></div>"
+);
+infowindow1.open(map, marker4);
+});
+
+var LatLng5 = new google.maps.LatLng(3.0009400,101.6607223);
+
+  var image5 = new google.maps.MarkerImage('../img/history/icon1.png',
+      new google.maps.Size(29, 51),
+      new google.maps.Point(0,0),
+      new google.maps.Point(15, 51));
+var infowindow5 = new google.maps.InfoWindow();
+
+var marker5 = new google.maps.Marker({
+        position: LatLng5,
+        map: map,
+        title: "place5",
+        icon: image5,
+    });
+google.maps.event.addListener(marker5, "click", function (e) {
+infowindow1.setPosition(e.LatLng5);
+infowindow1.setContent("<div id='infoWindow'><span class='map_photo'><img src='../img/enquiry/photo2.jpg'></span><span class='orange'>From RM 2,083,000.00 - RM 5,175,000.00</span><br>" +
+"<a href='#'>Property name property name property name property name property name</a></div>"
+);
+infowindow1.open(map, marker5);
+});
+
+
+var LatLng6 = new google.maps.LatLng(3.0009400,101.5607223);
+
+  var image6 = new google.maps.MarkerImage('../img/history/icon1.png',
+      new google.maps.Size(29, 51),
+      new google.maps.Point(0,0),
+      new google.maps.Point(15, 51));
+var infowindow6 = new google.maps.InfoWindow();
+
+var marker6 = new google.maps.Marker({
+        position: LatLng6,
+        map: map,
+        title: "place6",
+        icon: image6,
+    });
+google.maps.event.addListener(marker6, "click", function (e) {
+infowindow1.setPosition(e.LatLng6);
+infowindow1.setContent("<div id='infoWindow'><span class='map_photo'><img src='../img/enquiry/photo2.jpg'></span><span class='orange'>From RM 2,083,000.00 - RM 5,175,000.00</span><br>" +
+"<a href='#'>Property name property name property name property name property name</a></div>"
+);
+infowindow1.open(map, marker6);
+});
+
+var LatLng7 = new google.maps.LatLng(2.909400,101.6607223);
+
+  var image7 = new google.maps.MarkerImage('../img/history/icon1.png',
+      new google.maps.Size(29, 51),
+      new google.maps.Point(0,0),
+      new google.maps.Point(15, 51));
+var infowindow7 = new google.maps.InfoWindow();
+
+var marker7 = new google.maps.Marker({
+        position: LatLng7,
+        map: map,
+        title: "place7",
+        icon: image7,
+    });
+google.maps.event.addListener(marker7, "click", function (e) {
+infowindow1.setPosition(e.LatLng7);
+infowindow1.setContent("<div id='infoWindow'><span class='map_photo'><img src='../img/enquiry/photo2.jpg'></span><span class='orange'>From RM 2,083,000.00 - RM 5,175,000.00</span><br>" +
+"<a href='#'>Property name property name property name property name property name</a></div>"
+);
+infowindow1.open(map, marker7);
+});
+
+
+}
+ 
+</script> 
+
+<script src="../js/jquery.within-1.0.min.js"></script>
+
+<script>
+jQuery(function($){
+var ops = {
+width: 294,
+type : 'contain',
+bgColor : '#ffffff'
+};
+$('img.within').within(ops);
+});
+</script>
+<script>
+jQuery(function($){
+var ops = {
+width: 53,
+type : 'contain',
+bgColor : '#ffffff'
+};
+$('img.within2').within(ops);
+});
+</script>
+
+</head>
+<body onload="initialize();">
+<header>
+<div id="header">
+<div id="head">
+<h1>Malaysian property portal specializing in new property launched for sale<img src="../img/flag.png" alt="" /></h1>
+<div id="logo"><a href="./"><img src="../img/logo.png" alt="NewPropertyList.my" /></a></div>
+<div id="navi">
+<ul>
+<li><a href="">Login</a>&nbsp;|&nbsp;</li>
+<li><a href="">Sign up</a>&nbsp;|&nbsp;</li>
+<li><a href="">Recent Searches&nbsp;(0)</a>&nbsp;|&nbsp;</li>
+<li><a href="">My Favourites&nbsp;(0)</a></li>
+</ul>
+</div>
+
+<!--#head-->
+</div>
+
+<!--#header-->
+</div>
+</header>
+
+<div id="bread">
+<div id="list">
+<a href="../">NewPropertyList top</a>&nbsp;&gt;&nbsp;<h2>New Condominium for sale list in Malaysia</h2>
+</div>
+<!--#bread-->
+</div>
+
+<div id="content" class="clearfix">
+<div id="history">
+<div id="main">
+
+
+
+<div id="tab">
+<div id="tabs">
+<h4 class="off"><a href="">Recent Searches</a></h4>
+<h4 class="on"><a href="">My Favourites</a></h4>
+</div>
+</div>
+<div id="mode">
+<ul>
+<li id="map_on"><a href="">MAP MODE</a></li>
+<li id="list_off"><a href="">LIST MODE</a></li>
+</ul>
+</div>
+
+
+
+
+
+<div id="map_area"></div>
+
+
+
+
+
+
+
+<!--#main-->
+</div>
+
+<!--#history-->
+</div>
+
+<!--#content-->
+</div>
+
+<footer>
+<div id="footer">
+<div id="list">
+<div id="f_logo"><img src="../img/footer_logo.png" alt="NewPropertyList.my" /></div>
+
+<div id="catch">
+<p id="b">Property information website specializing in new property</p>
+<p id="s">New property information website for people who are looking for their new property in Malaysia</p>
+
+<p>[NewPropertyList.my] is run by SAMURAI INTERNET SDN. BHD. for people who are looking for new property in Malaysia.</p>
+<p>You can find your new property by area, property types, range of prices, and developers.</p>
+<p>You can check the detail of each property information, its photo, and floor plan. When you find your interests in property, you can add as your favourite.</p>
+<p>NewPropertyList.my gives an opportunity for you to search your new property various types of search options. Let's find out your new property using a suitable search option for you.</p>
+</div>
+
+<h3>Find by Area</h3>
+<div class="area">
+<p class="area_s"><a href="">Kuala Lumpur</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Selangor</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Johor</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Perak</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Penang</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Negeri Sembilan</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Melaka</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Perlis</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Kedah</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Kelantan</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Terengganu</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Pahang</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Sabah</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Sarawak</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+
+
+
+<div id="type">
+<h3>Find by Property types</h3>
+<ul class="clearfix">
+<li><a href="">Terrace/ Link House</a>&nbsp;|&nbsp;</li>
+<li><a href="">Semi-detached</a>&nbsp;|&nbsp;</li>
+<li><a href="">Bungalow</a>&nbsp;|&nbsp;</li>
+<li><a href="">Apartment</a>&nbsp;|&nbsp;</li>
+<li><a href="">Condominium</a></li>
+</ul>
+</div>
+
+<div id="price">
+<h3>Find by Prices</h3>
+<ul class="clearfix">
+<li><a href="">Less than RM 500,000</a>&nbsp;|&nbsp;</li>
+<li><a href="">RM 500,000 - RM 1,000,000</a>&nbsp;|&nbsp;</li>
+<li><a href="">RM 1,000,000 - RM 1,500,000</a>&nbsp;|&nbsp;</li>
+<li><a href="">More than RM 1,500,000</a></li>
+</ul>
+</div>
+
+<div id="deve">
+<h3>Find by Real Estate Developers</h3>
+<ul class="clearfix">
+<li><a href="">IOI Sdn. Bhd.</a>&nbsp;|&nbsp;</li>
+<li><a href="">Sunway Sdn. Bhd.</a>&nbsp;|&nbsp;</li>
+<li><a href="">YTL Sdn. Bhd.</a></li>
+</ul>
+<ul class="clearfix">
+<li><a href="">See the list of developers</a></li>
+</ul>
+</div>
+
+<!--#list-->
+</div>
+
+<div id="link">
+<ul>
+<li><a href="">NewPropertyList.my top</a>&nbsp;|&nbsp;</li>
+<li><a href="">Listenings on NewPropertyList.my</a>&nbsp;|&nbsp;</li>
+<li><a href="">Register</a>&nbsp;|&nbsp;</li>
+<li><a href="">Site map</a>&nbsp;|&nbsp;</li>
+<li><a href="">Terms of use</a>&nbsp;|&nbsp;</li>
+<li><a href="">Privacy Policy</a></li>
+</ul>
+<img src="../img/samurai_logo.png" alt="SAMURAI internet" />
+<p>&#169; 2015 / Samurai Internet Sdn. Bhd. / All Rights Reserved.</p>
+
+<!--#link-->
+</div>
+
+<!--#footer-->
+</div>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*
+--------------------------------------------------
+スマホ用追加css
+--------------------------------------------------
+*/
+.inputtext textarea {
+	width: 92%;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 1.5rem;
+	padding: 10px 10px;
+	margin-bottom: 15px;
+	-webkit-appearance: none;
+	height:70px;
+}
+
+
+
+
+
+

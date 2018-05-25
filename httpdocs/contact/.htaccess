@@ -1,0 +1,13 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !/sp/
+RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^(.*)$ /sp/contact/ [R]
+RewriteRule ^(.*)$ index.php [L]
+
+RewriteCond %{REQUEST_URI} /sp/
+RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+RewriteRule ^(.*)$ /contact/ [R]
+RewriteRule ^(.*)$ index.php [L]
+
+ErrorDocument 404  http://newpropertylist.my:8080/404/

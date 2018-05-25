@@ -1,0 +1,22 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.newpropertylist\.my
+RewriteRule ^(.*)$ http://newpropertylist.my/$1 [R=301,L]
+
+#AuthType Basic
+#AuthName "Input your ID and Password."
+#AuthUserFile /home/newpropertylist.my/httpdocs/.htpasswd
+#require valid-user
+
+#PC/スマホ切り替えはPHPでやる
+#RewriteCond %{REQUEST_URI} !/sp/
+#RewriteCond %{HTTP_USER_AGENT} (iPod|iPhone|iPad|Android|Windows\ Phone)
+#RewriteRule ^(.*)$ sp/$1 [R]
+#RewriteBase /
+
+#RewriteCond %{REQUEST_URI} /sp/
+#RewriteCond %{HTTP_USER_AGENT} !(iPod|iPhone|iPad|Android|Windows\ Phone)
+#RewriteRule ^sp/(.*)$ $1 [R]
+#RewriteBase /
+
+ErrorDocument 404  http://newpropertylist.my/404/

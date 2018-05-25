@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>NewPropertyList.my</title>
+<meta name="keywords" content=""/>
+<meta name="description" content=""/>
+<meta property="og:title" content="NewPropertyList.my">
+<meta property="og:type" content="website">
+<meta property="og:description" content="">
+<meta property="og:url" content="http://NewPropertyList.my">
+<meta property="og:image" content="">
+<meta property="og:site_name" content="NewPropertyList.my">
+
+<link rel="canonical" href="http://NewPropertyList.my/" />
+<link rel="stylesheet" type="text/css" href="../css/reset.css" media="screen, print" />
+<link rel="stylesheet" type="text/css" href="../css/style_property.css" media="screen, print" />
+<link rel="stylesheet" type="text/css" href="../lib/jquery.ad-gallery.css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/ui.core.js"></script>
+<script type="text/javascript" src="../js/ui.tabs.js"></script>
+<script type="text/javascript" src="../js/smoothScroll.js"></script>
+<script type="text/javascript" src="../js/side-fixed.js"></script>
+<script type="text/javascript" src="../js/modal.js"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="../css/modal.css" media="screen, print" />
+<script type="text/javascript">
+$(function() {
+$('#floor > ul').tabs();
+});
+</script>
+
+
+
+
+<script src="../js/jquery.within-1.0.min.js"></script>
+
+<script>
+jQuery(function($){
+var ops = {
+width: 108,
+type : 'contain',
+bgColor : '#ffffff'
+};
+$('img.within').within(ops);
+});
+</script>
+<script>
+jQuery(function($){
+var ops = {
+width: 53,
+type : 'contain',
+bgColor : '#ffffff'
+};
+$('img.within4').within(ops);
+});
+</script>
+<script>
+jQuery(function($){
+var ops = {
+width: 203,
+type : 'contain',
+bgColor : '#ffffff'
+};
+$('img.within5').within(ops);
+});
+</script>
+<script>
+jQuery(function($){
+var ops = {
+width: 120,
+type : 'contain',
+bgColor : '#ffffff'
+};
+$('img.within6').within(ops);
+});
+</script>
+
+<script type="text/javascript" src="../lib/jquery.ad-gallery.js"></script>
+<script type="text/javascript">
+  $(function() {
+var galleries = $('.ad-gallery').adGallery();
+  });
+  </script>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript"> 
+function initialize() {
+    var myLatlng = new google.maps.LatLng(2.9221919,101.6607223);
+    var myOptions = {
+        zoom: 12,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+
+    var map = new google.maps.Map(document.getElementById("map_area"), myOptions);
+    var smap = new google.maps.Map(document.getElementById("smap_area"), myOptions);
+
+
+var LatLng1 = new google.maps.LatLng(2.9221919,101.6607223);
+var LatLng12 = new google.maps.LatLng(2.9221919,101.6607223);
+
+  var image1 = new google.maps.MarkerImage('../img/property/icon1.png',
+      new google.maps.Size(39, 68),
+      new google.maps.Point(0,0),
+      new google.maps.Point(19, 68));
+var infowindow1 = new google.maps.InfoWindow();
+
+  var image12 = new google.maps.MarkerImage('../img/property/icon1.png',
+      new google.maps.Size(39, 68),
+      new google.maps.Point(0,0),
+      new google.maps.Point(19, 68));
+var infowindow12 = new google.maps.InfoWindow();
+
+var marker1 = new google.maps.Marker({
+        position: LatLng1,
+        map: map,
+        title: "place1",
+        icon: image1,
+    });
+
+var marker12 = new google.maps.Marker({
+        position: LatLng12,
+        map: smap,
+        title: "place12",
+        icon: image12,
+    });
+
+google.maps.event.addListener(marker1, "click", function (e) {
+infowindow1.setPosition(e.LatLng1);
+infowindow1.setContent("Shaftsbury Serviced Residences");
+infowindow1.open(map, marker1);
+});
+
+google.maps.event.addListener(marker12, "click", function (es) {
+infowindow1.setPosition(es.LatLng12);
+infowindow1.setContent("Shaftsbury Serviced Residences");
+infowindow1.open(smap, marker12);
+});
+
+var LatLng2 = new google.maps.LatLng(3.0308342,101.6165022);
+var LatLng22 = new google.maps.LatLng(3.0308342,101.6165022);
+
+  var image2 = new google.maps.MarkerImage('../img/property/school.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow2 = new google.maps.InfoWindow();
+
+  var image22 = new google.maps.MarkerImage('../img/property/school.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow22 = new google.maps.InfoWindow();
+
+var marker2 = new google.maps.Marker({
+        position: LatLng2,
+        map: map,
+        title: "place1",
+        icon: image2,
+    });
+var marker22 = new google.maps.Marker({
+        position: LatLng22,
+        map: smap,
+        title: "place1",
+        icon: image22,
+    });
+google.maps.event.addListener(marker2, "click", function (e) {
+infowindow1.setPosition(e.LatLng2);
+infowindow1.setContent("school");
+infowindow1.open(map, marker2);
+});
+google.maps.event.addListener(marker22, "click", function (es) {
+infowindow1.setPosition(es.LatLng22);
+infowindow1.setContent("school");
+infowindow1.open(smap, marker22);
+});
+
+var LatLng3 = new google.maps.LatLng(3.0359400,101.7195000);
+var LatLng32 = new google.maps.LatLng(3.0359400,101.7195000);
+
+  var image3 = new google.maps.MarkerImage('../img/property/hospital.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow3 = new google.maps.InfoWindow();
+
+  var image32 = new google.maps.MarkerImage('../img/property/hospital.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow32 = new google.maps.InfoWindow();
+
+var marker3 = new google.maps.Marker({
+        position: LatLng3,
+        map: map,
+        title: "place3",
+        icon: image3,
+    });
+var marker32 = new google.maps.Marker({
+        position: LatLng32,
+        map: smap,
+        title: "place3",
+        icon: image32,
+    });
+google.maps.event.addListener(marker3, "click", function (e) {
+infowindow1.setPosition(e.LatLng3);
+infowindow1.setContent("hospital");
+infowindow1.open(map, marker3);
+});
+
+google.maps.event.addListener(marker32, "click", function (es) {
+infowindow1.setPosition(es.LatLng32);
+infowindow1.setContent("hospital");
+infowindow1.open(smap, marker32);
+});
+
+
+var LatLng4 = new google.maps.LatLng(3.0009400,101.7195000);
+var LatLng42 = new google.maps.LatLng(3.0009400,101.7195000);
+
+  var image4 = new google.maps.MarkerImage('../img/property/station.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow4 = new google.maps.InfoWindow();
+
+  var image42 = new google.maps.MarkerImage('../img/property/station.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow42 = new google.maps.InfoWindow();
+
+var marker4 = new google.maps.Marker({
+        position: LatLng4,
+        map: map,
+        title: "place4",
+        icon: image4,
+    });
+var marker42 = new google.maps.Marker({
+        position: LatLng42,
+        map: smap,
+        title: "place4",
+        icon: image42,
+    });
+google.maps.event.addListener(marker4, "click", function (e) {
+infowindow1.setPosition(e.LatLng4);
+infowindow1.setContent("train station");
+infowindow1.open(map, marker4);
+});
+
+google.maps.event.addListener(marker42, "click", function (es) {
+infowindow1.setPosition(es.LatLng42);
+infowindow1.setContent("train station");
+infowindow1.open(smap, marker42);
+});
+
+var LatLng5 = new google.maps.LatLng(3.0009400,101.6607223);
+var LatLng52 = new google.maps.LatLng(3.0009400,101.6607223);
+
+  var image5 = new google.maps.MarkerImage('../img/property/market.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow5 = new google.maps.InfoWindow();
+
+  var image52 = new google.maps.MarkerImage('../img/property/market.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow52 = new google.maps.InfoWindow();
+
+var marker5 = new google.maps.Marker({
+        position: LatLng5,
+        map: map,
+        title: "place5",
+        icon: image5,
+    });
+var marker52 = new google.maps.Marker({
+        position: LatLng52,
+        map: smap,
+        title: "place5",
+        icon: image52,
+    });
+google.maps.event.addListener(marker5, "click", function (e) {
+infowindow1.setPosition(e.LatLng5);
+infowindow1.setContent("Super Market");
+infowindow1.open(map, marker5);
+});
+google.maps.event.addListener(marker52, "click", function (es) {
+infowindow1.setPosition(es.LatLng52);
+infowindow1.setContent("Super Market");
+infowindow1.open(smap, marker52);
+});
+
+var LatLng6 = new google.maps.LatLng(3.0009400,101.5607223);
+var LatLng62 = new google.maps.LatLng(3.0009400,101.5607223);
+
+  var image6 = new google.maps.MarkerImage('../img/property/mall.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow6 = new google.maps.InfoWindow();
+
+  var image62 = new google.maps.MarkerImage('../img/property/mall.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow62 = new google.maps.InfoWindow();
+
+var marker6 = new google.maps.Marker({
+        position: LatLng6,
+        map: map,
+        title: "place6",
+        icon: image6,
+    });
+var marker62 = new google.maps.Marker({
+        position: LatLng62,
+        map: smap,
+        title: "place6",
+        icon: image62,
+    });
+google.maps.event.addListener(marker6, "click", function (e) {
+infowindow1.setPosition(e.LatLng6);
+infowindow1.setContent("Shopping Mall");
+infowindow1.open(map, marker6);
+});
+google.maps.event.addListener(marker62, "click", function (es) {
+infowindow1.setPosition(es.LatLng62);
+infowindow1.setContent("Shopping Mall");
+infowindow1.open(smap, marker62);
+});
+
+var LatLng7 = new google.maps.LatLng(2.909400,101.6607223);
+var LatLng72 = new google.maps.LatLng(2.909400,101.6607223);
+
+  var image7 = new google.maps.MarkerImage('../img/property/others.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow7 = new google.maps.InfoWindow();
+
+  var image72 = new google.maps.MarkerImage('../img/property/others.png',
+      new google.maps.Size(26, 46),
+      new google.maps.Point(0,0),
+      new google.maps.Point(13, 46));
+var infowindow72 = new google.maps.InfoWindow();
+
+var marker7 = new google.maps.Marker({
+        position: LatLng7,
+        map: map,
+        title: "place7",
+        icon: image7,
+    });
+var marker72 = new google.maps.Marker({
+        position: LatLng72,
+        map: smap,
+        title: "place7",
+        icon: image72,
+    });
+google.maps.event.addListener(marker7, "click", function (e) {
+infowindow1.setPosition(e.LatLng7);
+infowindow1.setContent("Others");
+infowindow1.open(map, marker7);
+});
+google.maps.event.addListener(marker72, "click", function (es) {
+infowindow1.setPosition(es.LatLng72);
+infowindow1.setContent("Others");
+infowindow1.open(smap, marker72);
+});
+
+}
+ 
+</script>
+
+
+
+
+
+</head>
+<body onload="initialize();">
+<header>
+<div id="header">
+<div id="head">
+<h1>Malaysian property portal specializing in new property launched for sale<img src="../img/flag.png" alt="" /></h1>
+<div id="logo"><a href="./"><img src="../img/logo.png" alt="NewPropertyList.my" /></a></div>
+<div id="navi">
+<ul>
+<li><a href="">Login</a>&nbsp;|&nbsp;</li>
+<li><a href="">Sign up</a>&nbsp;|&nbsp;</li>
+<li><a href="">Recent Searches&nbsp;(0)</a>&nbsp;|&nbsp;</li>
+<li><a id="modal-open3" class="button-link">My Favourites&nbsp;(0)</a></li>
+</ul>
+</div>
+
+<!--#head-->
+</div>
+
+<!--#header-->
+</div>
+</header>
+
+<div id="bread">
+<div id="list">
+<a href="../">NewPropertyList top</a>&nbsp;&gt;&nbsp;<h2>New Condominium for sale list in Malaysia</h2>
+</div>
+<!--#bread-->
+</div>
+
+<div id="content" class="clearfix">
+<div id="property">
+<div id="main">
+<div id="photo"><img src="../img/property/property_logo.png" alt="" class="within" /></div>
+<div id="detail">
+<div class="price">RM1,500,000 - RM4,485,000(Main Price: RM 3,000,000)</div>
+<h3>ABCD SOHO Serviced Apartments</h3>
+<div class="catch">Catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy catch copy </div>																				
+
+<div class="ex">
+<table>
+<tr>
+<th>Property Type</th>
+<td>Type of properties</td>
+</tr>
+<tr>
+<th>Completion year</th>
+<td>Completion year 2017</td>
+</tr>
+<tr>
+<th>Location</th>
+<td>Damansara Perdana, Petaling Jaya, Selangor</td>
+</tr>
+</table>
+<div class="deve">Developed by ABCD Land Bhd</div>
+</div>
+</div>
+
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sk1r5-rOydY" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div id="tab">
+<div id="tabs">
+<h4 class="on"><a href="#location">Location</a></h4>
+<h4 class="on"><a href="#plan">Floor plan</a></h4>
+<h4 class="on"><a href="#sales_g">Sales Gallery</a></h4>
+</div>
+</div>
+
+<div id="gallery" class="ad-gallery">
+      <div class="ad-image-wrapper">
+      </div>
+      <div class="ad-controls">
+      </div>
+      <div class="ad-nav">
+        <div class="ad-thumbs">
+          <ul class="ad-thumb-list">
+            <li>
+              <a href="../img/property/photo3.jpg">
+                <img src="../img/property/photo3.jpg" title="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="../img/property/photo2.jpg">
+                <img src="../img/property/photo2.jpg" title="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="../img/property/photo4.png">
+                <img src="../img/property/photo4.png" title="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="../img/property/photo5.jpg">
+                <img src="../img/property/photo5.jpg" title="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="../img/enquiry/photo2.jpg">
+                <img src="../img/enquiry/photo2.jpg" title="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="../img/property/photo.jpg">
+                <img src="../img/property/photo_s.jpg" title="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="../img/property/photo.jpg">
+                <img src="../img/property/photo_s.jpg" title="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="../img/property/photo.jpg">
+                <img src="../img/property/photo_s.jpg" title="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="../img/property/photo.jpg">
+                <img src="../img/property/photo_s.jpg" title="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="../img/property/photo.jpg">
+                <img src="../img/property/photo_s.jpg" title="" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+</div>
+
+
+<div class="middle">
+<h4>About Twinz Residences</h4>
+<div class="pic"><div class="photo"><img src="../img/property/dammy.jpg" class="within" /></div>
+<div class="cap">Ms. Jun, Marketing Department</div></div>
+<h5>Q: What is the concept that you use for Twinz Residences?</h5>
+<p>A: We use the concept for creating the oasis in puchong area that offering a blend of modern living and the serenity of nature. This concept is inspired by the magnificence of nature. We are confident to make Twinz Residences in Puchong Jaya to be a symbol of modern living in a bustling township</p>
+
+<h5>Q: What are the features that Twinz Residences will provide?</h5>
+<p>A: We provide many features in Twinz Residences. Twinz Residences offers 278 tastefully designed homes with 5 design options namely Type A, B, C, C1 and D with built-up sizes ranging from 871 sq ft to 1,226 sq ft.</p>
+<p>Each homes is fitted with porcelain tiles in the bedrooms, living room, dining and kitchen as well as ceramic tiles in the bathrooms. The homes are equipped with fire-rated timber doors and quality locksets as well as sanitary ware. The modern and functional living spaces feature comprehensive electrical fittings that include lighting, plug, fan, heater and air-conditioning points. Cable television points and fiber wall sockets are also readily available. A</p>
+
+<div id="smap_area"></div>
+<h5>Q: For the location, what makes Twinz Residences special?</h5>
+<p>A: Twinz Residences is positioned at a strategic vantage point, Twinz Residences offers a panoramic view of Puchong and neighbouring Bandar Sunway.</p>
+<p>Residents get to enjoy diverse views of the pool, the riverfront and the neighbouring townships. Built to capitalise on the beauty of nature, the homes feature large glass panel windows that allow ample sunlight, excellent ventilation and a good view of the surrounding greenery.</p>
+
+<h5>Q: What are the popular amenities which is near and conveniences to reach from Twinz Residences?</h5>
+<p>A: Twinz Residences is strategically located in the heart of the Klang Valley which is near to the city destination. Twinz Residences has a world of conveniences and amenities at its doorstep. Popular hotspots nearby include IOI Mall, Giant Bandar Puteri, Tesco Puchong, Sunway Pyramid, Setia Walk and One City Mall. The commercial hubs of Puchong Jaya, Pusat Bandar Puchong and the Puchong Financial Corporate Centre in Bandar Puteri are within a stone’s throw from Twinz Residences presenting a wide range of business activities, restaurants, stores, banks and other retail outlets. Premier hospitals near to the development include Columbia Asia Hospital, Sunway Medical Centre and KPMC Puchong. </p>
+<p>Puchong has a good selection of national and international schools within around 5km radius that include SK Puchong Jaya 2, SMK Puchong Jaya (A), SK Puchong Jaya 1, SMK Batu Lapan, SJKC Yak Chee and Taylor’s International School Puchong. Institutions of higher learning in the vicinity and within a convenient distance include Taylor’s Lakeside University College, Binary University of Management, Monash University and Spectrum International College of Technology. </p>
+<p>The Ampang LRT line is scheduled to extend up to IOI Mall whilst the Sunway Line BRT station will be located at nearby Sunway Medical Centre. Twinz Residences is served by a host of highway networks that make commuting convenient, namely, the main nerve of Jalan Puchong, the Federal Highway, the Damansara-Puchong highway (LDP), the Shah Alam Expressway (KESAS), the New Pantai Expressway (NPE) and the ELITE highway. </p>
+<p>The Kuala Lumpur International Airport (KLIA) is only about 50km away, whilst Malaysia’s silicon valley Cyberjaya is about 28km away. The federal administrative capital of Putrajaya is just 30km away.. </p>
+
+<h4>About Floor Plan</h4>
+<h5>Q: Can you describe the floor plan for each type of houses in Twinz Residences?</h5>
+<p>A: There are 5 type of houses in Twinz residences which are type A, B, C, C1 and D. Type A and B feature 3 bedrooms and 2 bathrooms with a utility yard. Type C and C1 comprise 3 bedrooms, 2 bathrooms, a utility room and a spacious lanai. Type D features 3 bedrooms, 2 bathrooms, a study room, a utility yard and 2 balconies. </p>
+
+
+<h4>Features</h4>
+<p>Land Title: Commercial
+<br />Tenure: Freehold
+<br />Built Up: 915sq.ft, 980sq.ft, 1,356sq.ft, 1,830sq.ft
+<br />Number of units: 199 units
+<br />Maintenance Fee: Indicative RM0.70 psf
+<br />Bumi Discounts: Not Applicable</p>
+<h4>Facilities</h4>
+<p>Swimming Pool
+<br />Sun Deck
+<br />Gym
+<br />Multi-purpose room
+<br />Changing rooms</p>
+</div>
+
+
+<!--#####map######-->
+<h4 class="title" id="location">Location Map</h4>
+
+<div id="address"><span>Jalan Kia Peng, Kuala Lumpur</span></div>
+
+<div id="map" class="clearfix">
+<div id="map_area"></div>
+
+
+<div id="amenity">
+<h4 class="train">Train Station</h4>
+<div class="box">
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman ParamountRapidKL Taman ParamountRapidKL Taman ParamountRapidKL </div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R w88">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+<div class="mw"></div>
+
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman Paramount</div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+
+
+<!--.box-->
+</div>
+
+<!------------------------------->
+
+<div class="box">
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman ParamountRapidKL</div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+<div class="mw"></div>
+
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman ParamountRapidKL Taman ParamountRapidKL Taman ParamountRapidKL</div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+
+
+<!--.box-->
+</div>
+
+<!------------------------------->
+
+<h4 class="market">Super Market</h4>
+<div class="box">
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman ParamountRapidKL Taman ParamountRapidKL Taman ParamountRapidKL </div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+<div class="mw"></div>
+
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman Paramount</div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+
+
+<!--.box-->
+</div>
+
+<!------------------------------->
+
+<h4 class="mall">Shopping Mall</h4>
+<div class="box">
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman ParamountRapidKL Taman ParamountRapidKL Taman ParamountRapidKL </div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+<div class="mw"></div>
+
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman Paramount</div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+
+
+<!--.box-->
+</div>
+
+<!------------------------------->
+
+<h4 class="school">School</h4>
+<div class="box">
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman ParamountRapidKL Taman ParamountRapidKL Taman ParamountRapidKL </div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+<div class="mw"></div>
+
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman Paramount</div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+
+
+<!--.box-->
+</div>
+
+<!------------------------------->
+
+<h4 class="hospital">Hospital</h4>
+<div class="box">
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman ParamountRapidKL Taman ParamountRapidKL Taman ParamountRapidKL </div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+
+
+
+
+<!--.box-->
+</div>
+
+
+<!------------------------------->
+
+<h4 class="others">Others</h4>
+<div class="box">
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman ParamountRapidKL Taman ParamountRapidKL Taman ParamountRapidKL </div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+<div class="mw"></div>
+
+<div class="item">
+<div class="L">
+<div class="category1">RapidKL Taman Paramount</div>
+<div class="category2">Rapid KL</div>
+</div>
+<div class="R">
+<div class="distance1">Distance</div>
+<div class="distance2">0.46km</div>
+</div>
+</div>
+
+
+
+<!--.box-->
+</div>
+
+
+
+
+
+
+
+
+
+
+<!--.amenity-->
+</div>
+
+
+
+
+<!--#map-->
+</div>
+
+
+<!--#####floor######-->
+<h4 class="title" id="plan">Floor Plan</h4>
+
+<div id="floor" class="clearfix">
+<ul>
+<li><a href="#floor_1" class="noSmooth">TYPE A</a></li>
+<li><a href="#floor_2" class="noSmooth">TYPE B</a></li>
+<li><a href="#floor_3" class="noSmooth">TYPE C</a></li>
+</ul>
+<div class="layout" id="floor_1">
+<div class="img_area">
+<img src="../img/property/floor_plan.png" alt="" />
+</div>
+<table>
+<tr>
+<th nowrap>Size</th>
+<td>2,395 Sq. Ft.c c c c c</td>
+<th nowrap>Bedroom(s)</th>
+<td>text text text text text text text text</td>
+</tr>
+<tr>
+<th nowrap>Bathroom(s)</th>
+<td>text text text text text text  </td>
+<th nowrap>Price</th>
+<td>
+text text text text text text
+</td>
+</tr>
+</table>
+
+<!--#floor_1-->
+</div>
+
+
+<div class="layout" id="floor_2">
+<div class="img_area">
+<img src="../img/property/floor_tate.png" alt="" />
+</div>
+
+<table>
+<tr>
+<th nowrap>Size</th>
+<td>2,395 Sq. Ft.b b b b b</td>
+<th nowrap>Bedroom(s)</th>
+<td>text text text text text text text text</td>
+</tr>
+<tr>
+<th nowrap>Bathroom(s)</th>
+<td>text text text text text text  </td>
+<th nowrap>Price</th>
+<td>
+text text text text text text
+</td>
+</tr>
+</table>
+
+<!--#floor_2-->
+</div>
+
+<div class="layout" id="floor_3">
+<div class="img_area">
+<img src="../img/property/floor.png" alt="" />
+</div>
+<table>
+<tr>
+<th nowrap>Size</th>
+<td>2,395 Sq. Ft.aaaa a a a</td>
+<th nowrap>Bedroom(s)</th>
+<td>text text text text text text text text</td>
+</tr>
+<tr>
+<th nowrap>Bathroom(s)</th>
+<td>text text text text text text  </td>
+<th nowrap>Price</th>
+<td>
+text text text text text text
+</td>
+</tr>
+</table>
+
+<!--#floor_1-->
+</div>
+
+
+<!--#floor-->
+</div>
+
+
+<div id="send">
+<span>Get latest information from developer directly!</span>
+<a href=""><img src="../img/property/send_button.png" alt="Send Enquiry" /></a>
+</div>
+<div class="gototop"><a href="#header">▲Go to top of this page</a></div>
+
+<!--########## Sales Garelly ############-->
+<h4 class="title" id="sales_g">Sales Garelly</h4>
+<div id="sales">
+
+<div class="sale_item clearfix">
+<div class="prof">
+<h5>Sales Gallery</h5>
+<p>Jalan SS 15/4g, Ss 15, 47500 Subang Jaya, Selangor, Malaysia<br />
+Holiday Every Monday<br />
+Map Cordinate 320930, 92749832</p>
+</div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<!--.sale_item-->
+</div>
+
+<div class="sale_item clearfix">
+<div class="prof">
+<h5>Sales Gallery</h5>
+<p>Jalan SS 15/4g, Ss 15, 47500 Subang Jaya, Selangor, Malaysia<br />
+Holiday Every Monday<br />
+Map Cordinate 320930, 92749832</p>
+</div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<div class="s_photo"><img src="../img/property/dammy2.jpg" alt="" class="within6" /></div>
+<!--.sale_item-->
+</div>
+
+
+
+
+
+<!--#sales-->
+</div>
+
+
+
+
+<!--########## Developer Information ############-->
+<h4 class="title">Developer Information</h4>
+<div id="deve_info" class="clearfix">
+
+<div id="deve_logo"><img src="../img/property/dammy2.jpg" alt="" class="within" /></div>
+
+<div id="deve_ex">
+<h5>MB Group</h5>
+
+<p>Wisma MB Group, No. 28, Jalan Pandan Ria 7, Pusat Perdagangan Pandan, 81100 Johor Bahru, Johor, Malaysia.</p>
+<p class="f12">Founded in 1983, MB Group is now a multi- disciplined organisation with core business that spans across property development, construction, building material trading, interior and landscape design, hospitality, credit finance, Malaysia My Second Home (MM2H) Programme and others. Together with our customers' support and trust, we continue to strive towards developing premium properties that seek to improve the quality of life for all.</p>
+</div>
+<h6>Completed Residential Project</h6>
+
+
+<p>Kuala Lumpur Mont Kiara 1Mont' Kiara  (Condominium)<br />
+Selangor Damansara ABCD EFG (Apartment)<br />
+Puchong ABCD (Bangalow)</p>
+
+
+</div>
+
+<div id="send">
+<span>Get latest information from developer directly!</span>
+<a href=""><img src="../img/property/send_button.png" alt="Send Enquiry" /></a>
+</div>
+<div class="gototop"><a href="#header">▲Go to top of this page</a></div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ここからモーダルウィンドウ -->
+<div id="modal-content">
+	<!-- モーダルウィンドウのコンテンツ開始 -->
+<p><img src="../img/logo_modal.png" alt="NewPropertyList.my" /></p>
+<p id="message">Sign up/in to use "My Favorites"</p>
+	<p><a href=""><img src="../img/modal_sign_button.png" alt="Sign up/in" /></a></p>
+	<p><a id="modal-close" class="button-link">Close</a></p>
+	<!-- モーダルウィンドウのコンテンツ終了 -->
+</div>
+
+
+<!--#main-->
+</div>
+
+<div id="sideWrap">
+<div id="side">
+<div id="market">
+<h3>Market by</h3>
+
+<div><img src="../img/property/company_logo.png" alt="" id="bhd_logo" class="within" /></div>
+<h4>FGHIJ Development Group</h4>
+<p>Address Address AddressAddress AddressAddress Address Address Address Address Address Address Address Address Address Address </p>
+
+<div class="button"><a href=""><img src="../img/property/send_button_side.png" alt="Send Enquiry" /></a></div>
+<div class="button"><a id="modal-open" class="button-link"><img src="../img/property/save_favo.png" alt="Save Favourites" /></a></div>
+</div>
+
+
+
+
+<div id="recent" class="clearfix">
+<h3>Recent Searches:</h3>
+<div id="count">4</div>
+
+<ul>
+<li><a href="" class="photo"><img src="../img/search/photo.jpg" alt="" class="within4" /></a>
+<div class="price">RM1,500,000 - RM4,485,000(Main Price: RM 3,000,000)</div>
+<a href="">Residencial nameResidencial nameResidencial name</a>
+</li>
+<li><a href="" class="photo"><img src="../img/search/photo.jpg" alt="" class="within4" /></a>
+<div class="price">RM1,500,000 - RM4,485,000(Main Price: RM 3,000,000)</div>
+<a href="">Residencial nameResidencial name Residencial name</a>
+</li>
+<li><a href="" class="photo"><img src="../img/search/photo.jpg" alt="" class="within4" /></a>
+<div class="price">RM1,500,000 -</div>
+<a href="">Residencial name</a>
+</li>
+
+
+
+</ul>
+<div id="see_list"><a href="">&gt;See the list</a></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--#side-->
+</div>
+
+<!--#sideWrap-->
+</div>
+
+<!--#property-->
+</div>
+
+<!--#content-->
+</div>
+
+<footer>
+<div id="footer">
+<div id="list">
+<div id="f_logo"><img src="../img/footer_logo.png" alt="NewPropertyList.my" /></div>
+
+<div id="catch">
+<p id="b">Property information website specializing in new property</p>
+<p id="s">New property information website for people who are looking for their new property in Malaysia</p>
+
+<p>[NewPropertyList.my] is run by SAMURAI INTERNET SDN. BHD. for people who are looking for new property in Malaysia.</p>
+<p>You can find your new property by area, property types, range of prices, and developers.</p>
+<p>You can check the detail of each property information, its photo, and floor plan. When you find your interests in property, you can add as your favourite.</p>
+<p>NewPropertyList.my gives an opportunity for you to search your new property various types of search options. Let's find out your new property using a suitable search option for you.</p>
+</div>
+
+<h3>Find by Area</h3>
+<div class="area">
+<p class="area_s"><a href="">Kuala Lumpur</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Selangor</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Johor</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Perak</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Penang</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Negeri Sembilan</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Melaka</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Perlis</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Kedah</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Kelantan</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Terengganu</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Pahang</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Sabah</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+<div class="area">
+<p class="area_s"><a href="">Sarawak</a></p>
+<ul>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a>&nbsp;|&nbsp;</li>
+<li><a href="">area group name</a></li>
+</ul>
+</div>
+
+
+
+<div id="type">
+<h3>Find by Property types</h3>
+<ul class="clearfix">
+<li><a href="">Terrace/ Link House</a>&nbsp;|&nbsp;</li>
+<li><a href="">Semi-detached</a>&nbsp;|&nbsp;</li>
+<li><a href="">Bungalow</a>&nbsp;|&nbsp;</li>
+<li><a href="">Apartment</a>&nbsp;|&nbsp;</li>
+<li><a href="">Condominium</a></li>
+</ul>
+</div>
+
+<div id="price">
+<h3>Find by Prices</h3>
+<ul class="clearfix">
+<li><a href="">Less than RM 500,000</a>&nbsp;|&nbsp;</li>
+<li><a href="">RM 500,000 - RM 1,000,000</a>&nbsp;|&nbsp;</li>
+<li><a href="">RM 1,000,000 - RM 1,500,000</a>&nbsp;|&nbsp;</li>
+<li><a href="">More than RM 1,500,000</a></li>
+</ul>
+</div>
+
+<div id="deve">
+<h3>Find by Real Estate Developers</h3>
+<ul class="clearfix">
+<li><a href="">IOI Sdn. Bhd.</a>&nbsp;|&nbsp;</li>
+<li><a href="">Sunway Sdn. Bhd.</a>&nbsp;|&nbsp;</li>
+<li><a href="">YTL Sdn. Bhd.</a></li>
+</ul>
+<ul class="clearfix">
+<li><a href="">See the list of developers</a></li>
+</ul>
+</div>
+
+<!--#list-->
+</div>
+
+<div id="link">
+<ul>
+<li><a href="">NewPropertyList.my top</a>&nbsp;|&nbsp;</li>
+<li><a href="">Listenings on NewPropertyList.my</a>&nbsp;|&nbsp;</li>
+<li><a href="">Register</a>&nbsp;|&nbsp;</li>
+<li><a href="">Site map</a>&nbsp;|&nbsp;</li>
+<li><a href="">Terms of use</a>&nbsp;|&nbsp;</li>
+<li><a href="">Privacy Policy</a></li>
+</ul>
+<img src="../img/samurai_logo.png" alt="SAMURAI internet" />
+<p>&#169; 2015 / Samurai Internet Sdn. Bhd. / All Rights Reserved.</p>
+
+<!--#link-->
+</div>
+
+<!--#footer-->
+</div>
+
+</footer>
+</body>
+</html>

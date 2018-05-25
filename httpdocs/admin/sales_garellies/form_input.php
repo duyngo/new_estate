@@ -1,0 +1,15 @@
+<input type="hidden" name="id" value="<?php echo $_POST['id'];?>">
+<input type="hidden" name="companies_id" value="<?php echo $_POST['companies_id'];?>">
+<input type="hidden" name="name" value="<?php echo $_POST['name'];?>">
+<input type="hidden" name="description" value="<?php echo $_POST['description'];?>">
+<input type="hidden" name="image_path_1" value="<?php echo $_POST['image_path_1'];?>">
+<input type="hidden" name="image_path_2" value="<?php echo $_POST['image_path_2'];?>">
+<input type="hidden" name="image_path_3" value="<?php echo $_POST['image_path_3'];?>">
+<input type="hidden" name="image_path_4" value="<?php echo $_POST['image_path_4'];?>">
+<input type="hidden" name="image_path_5" value="<?php echo $_POST['image_path_5'];?>">
+<input type="hidden" name="image_path_6" value="<?php echo $_POST['image_path_6'];?>">
+<input type="hidden" name="image_path_7" value="<?php echo $_POST['image_path_7'];?>">
+<input type="hidden" name="image_path_8" value="<?php echo $_POST['image_path_8'];?>">
+<input type="hidden" name="image_path_9" value="<?php echo $_POST['image_path_9'];?>">
+<input type="hidden" name="image_path_10" value="<?php echo $_POST['image_path_10'];?>">
+<input type="hidden" name="sort" value="<?php echo $_POST['sort'];?>">
